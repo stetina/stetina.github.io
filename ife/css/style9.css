@@ -1,0 +1,36 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,img {padding:0;margin:0;}
+body{
+	font-family: "微软雅黑";
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background: #228ABF;
+}
+.header ul{
+	float: right;
+	width: 430px;
+	height: 70px;
+	line-height: 70px;
+	list-style: none;
+}
+.header ul li{
+	float: left;
+	margin-right: 30px;
+}
+.header input{
+	height: 30px;
+	border-radius: 30px;
+	background: white;
+	border: none;
+	width: 320px;
+}
+.login-head{
+	color: white;
+	font-size: 15px;
+}
+.aside{
+	background: #2A2D3C;
+	width: 450px;
+	overflow: auto;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style type="text/css">
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	position: relative;
+}
+.god{
+	background: #ccc;
+	height: 200px;
+	width: 400px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}	
+.son{
+	width:50px;
+	height: 50px;
+	background: yellow;
+	position: absolute;
+}
+#son1{
+	top:0px;
+	left: 0px;
+	border-radius: 0 0 50px 0;
+}
+#son2{
+	right:0;
+	bottom:0;
+	border-radius:50px 0 0 0;
+}
+</style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div class="god">
+<div id="son1" class="son"></div>
+<div id="son2" class="son"></div>
+</div>	
+</body>
+</html>

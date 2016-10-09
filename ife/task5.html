@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css">
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	/*min-width: 1000px;*/
+	 background: #DEDEDE;
+	position: relative;
+	  min-width: 750px;
+	font-family:'Microsoft YaHei';
+}
+header{
+	background: #333;
+	height: 60px;
+	/*position: fixed;*/
+	/* left: 0;
+	right: 0; */
+	width: 100%;
+	/*top: 0;*/
+	 vertical-align: middle;
+	display: table;
+}
+header span{
+	display: table-cell;
+	 vertical-align: middle;
+}
+header img{
+	height: 58px;
+	margin-left: 15px;
+   margin-top: 2px;
+}
+header ul{
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	bottom: 0;
+	list-style: none;
+	min-width: 350px;
+}
+header ul li{
+	width: 80px;
+	text-align: center;
+	 display:block;
+	/*text-decoration: none;*/
+	float: left;
+	/*height: 60px;*/
+	line-height: 65px;
+	  /*padding:10px;*/
+	/*padding: 10px;*/
+}
+header ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	/*padding-top: 200px;*/
+	line-height: 60px;
+	/*height: 60px;*/
+	/*margin-top: 20px;*/
+}
+header ul li:hover{
+	border-bottom: 1px solid red;
+    background: #474747;
+	border-radius: 3px;
+
+}
+#maindiv{
+	overflow: auto;
+}
+aside{
+ background: #fff;
+  float: right;
+  width: 350px;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px #848484;
+  /*overflow: auto;*/
+  /*clear: both;*/
+}
+/* aside div{
+	text-align: center;
+	margin: 0 auto;
+} */
+form{
+	width: 100%;
+}
+form>div{
+	margin: 10px 0;
+}
+aside .tips{
+	float: left;
+	width: 35%;
+	text-align: right;
+	display:inline-block;
+	margin-right: 10px;
+
+}
+aside .demand{
+	margin-left: 0;
+	color: grey;
+	margin-left: 38%;
+	font-size: 12px;
+	/*margin-top: 10px;*/
+}
+.submitBottom{
+	width: 100%;
+  height: 40px;
+  background: #3355D0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  border:1px solid #3355D0;
+}
+.submitBottom:hover{
+	  background: #0063dc;
+}
+article{
+	/*width: 600px;*/
+	/*height: 300px;*/
+  margin-top: 40px;
+  background-color: #FFF;
+  margin-left: 20px;
+  margin-right: 430px;
+  padding: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px #848484;
+}
+article table{
+	border: 1;
+	border-collapse: collapse;
+	width: 100%;
+}
+article table tr th{
+	 color: white;
+  background: #333;
+}
+article tr{
+	height: 20px;
+	border: 1px solid black;
+}
+article p{
+	text-indent: 2em;
+	padding: 10px 0;
+}
+article ul{
+	list-style: none;
+}
+article img{
+	height: 100px;
+}
+article figure{
+	border: 1px solid black;
+	padding: 10px 0px;
+	height: 140px;
+	width: 140px;
+	text-align:center;
+	margin: 10px;
+	display: inline-block;
+
+}
+footer{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	color: white;
+	background: black;
+	line-height: 60px;
+}
+</style>
+	<meta charset="UTF-8">
+	<title>sad11</title>
+</head>
+<body>
+	<header>
+		<span>
+			<img src="images/teamLOGO.jpg"></span>
+		<nav>
+			<ul>
+				<li>
+					<a href="#">链接</a>
+				</li>
+				<li>
+					<a href="#">链接啊</a>
+				</li>
+				<li>
+					<a href="#">链接啊</a>
+				</li>
+				<li>
+					<a href="#">链接啊</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div id="maindiv">
+		<aside>
+			<h3>侧栏标题</h3>
+			<form>
+				<div>
+					<label class="tips">e-mail addr:</label>
+					<input type="" name="" value="123"></div>
+				<div class="demand">请按要求填写</div>
+				<div>
+					<label class="tips">pwd:</label>
+					<input type="password" name=""></div>
+				<div>
+					<label class="tips">pwd again:</label>
+					<input type="password" name=""></div>
+				<div>
+					<label class="tips">性别</label>
+					<input type="radio" id="male" checked="checked" value="male" name="sex">
+					<label for="male">男</label>
+					<input type="radio"  value="female" name="sex" id="female">
+					<label for="female">女</label>
+				</div>
+				<div>
+					<label class="tips">City:</label>
+					<select>
+						<option value="1">henan</option>
+						<option value="2">rio</option>
+						<option value="3">soul</option>
+						<option value="4">osaka</option>
+						<option value="5">lls</option>
+					</select>
+				</div>
+				<div>
+					<label class="tips">habit:</label>
+					<label for="lol">lol</label>
+					<input type="checkbox" name="habit" value="l4d" id="lol">
+					<label for="dota">dota</label>
+					<input type="checkbox" name="habit" id="dota" value="l4d">
+					<label for="l4d">l4d</label>
+					<input type="checkbox" value="l4d" name="habit" id="l4d"></div>
+				<div>
+					<label class="tips">描述</label>
+					<textarea cols="17" rows="3"></textarea>
+				</div>
+				<div>
+					<input type="button" value="Submit" name="submit0" class="submitBottom"></div>
+			</form>
+		</aside>
+		<article>
+			<h1>一级标题</h1>
+			<h3>3级标题</h2>
+			<p style="color:grey">
+				<span>tips</span>
+				<time>systemtime</time>
+			</p>
+			<p>
+				“三个代表重要思想”是中国共产党对江泽民执政思想的官方表述，简称“三个代表”，于2000年7月1日正式提出，是江泽民最广为人知的语录。
+中国共产党要始终代表中国先进社会生产力的发展要求，代表中国先进文化的前进方向，代表中国最广大人民的利益。
+我们党要始终代表中国先进生产力的发展要求——就是党的理论、路线、纲领、方针、政策和各项工作，必须努力符合生产力发展的规律，体现不断推动社会生产力的解
+			</p>
+			<img src="images/teamLOGO.jpg">
+			<p>
+				放和发展的要求，尤其要体现推动先进生产力发展的要求，通过发展生产力不断提高人民群众的生活水平;我们党要始终代表中国先进文化的前进方向——就是党的理论、路线、纲领、方针、政策和各项工作，必须努力体现发展面向现代化、面向世界、面向未来的，民族的科学的大众的社会主义文化的要求，促进全民族思想道德素质和科学文化素质的不断提高，为我国经济发展和社会进步提供精神动力和智力支持;我们党要始终代表中国最广大人民的根本利益——就是党的理论、路线、纲领、方针、政策和各项工作，必须坚持把人民的根本利益作为出发点和归宿，充分发挥人民群众的积极性主动性创造性，在社会不断发展进步的基础上，使人民群众不断获得切实的经济、政治、文化利益。[1]
+			</p>
+			<p>
+				<ul>
+					<li>listitem1</li>
+					<li>iotem2</li>
+					<li>item3</li>
+					<li>item4</li>
+					<li>item5</li>
+				</ul>
+			</p>
+		</article>
+
+		<article>
+			<figure>
+				<figcaption>greatlogo</figcaption>
+				<img src="images/teamLOGO.jpg" alt=""></figure>
+			<figure><figcaption>greatlogo</figcaption>
+				<img src="images/teamLOGO.jpg" alt=""></figure>
+			<figure><figcaption>greatlogo</figcaption>
+				<img src="images/teamLOGO.jpg" alt=""></figure>
+			<figure><figcaption>greatlogo</figcaption>
+				<img src="images/teamLOGO.jpg" alt=""></figure>
+			<figure><figcaption>greatlogo</figcaption>
+				<img src="images/teamLOGO.jpg" alt=""></figure>
+			<figure><figcaption>greatlogo</figcaption>
+				<img src="images/teamLOGO.jpg" alt=""></figure>
+		</article>
+		<article>
+		<h1>Last Title</h1>
+		<h3 style="color:grey">littletitle</h3>
+		<p>
+		<table border="1">
+		<tr>
+			<th></th>
+			<th></th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		</table>
+		</p>
+		</article>
+		<article></article>
+
+	</div>
+	<footer>
+	<span>版权所有&copy; </span>
+	</footer>
+</body>
+</html>
