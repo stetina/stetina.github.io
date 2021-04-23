@@ -3,7 +3,25 @@ entries:
   utcook:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2021-04-23T15:14:23.143643482+08:00
+    created: 2021-04-23T15:59:24.855969852+08:00
+    description: A Helm chart for Kubernetes
+    digest: deaed9ef9f1e2f33dff4f2b1447f3be10b06b7ebe6c7245aac28f301cda04b74
+    home: https://github.com/ygqygq2/charts/tree/master/utcook
+    icon: https://utcook-website.oss-cn-shenzhen.aliyuncs.com/logo.png
+    keywords:
+    - template
+    - istio
+    - helm
+    maintainers:
+    - email: 29ygq@sina.com
+      name: Chinge Yang
+    name: utcook
+    urls:
+    - https://stetina.github.io/chart/utcook-2.1.4%20.tgz
+    version: 2.1.4
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: 2021-04-23T15:59:24.854905691+08:00
     description: A Helm chart for Kubernetes
     digest: e8503c7514bd8c0f979400a6905b6962b9d22b7c667caef64fa5c528964af98d
     home: https://github.com/ygqygq2/charts/tree/master/utcook
@@ -21,7 +39,7 @@ entries:
     version: 2.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2021-04-23T15:14:23.142543324+08:00
+    created: 2021-04-23T15:59:24.853837391+08:00
     description: A Helm chart for Kubernetes
     digest: 0c8348175c87f2210040a10d2174d864ae1d8c4a19ef47310764554a7b793ec7
     home: https://www.utcook.com/
@@ -33,6 +51,6 @@ entries:
       name: Chinge Yang
     name: utcook
     urls:
-    - https://stetina.github.io/chart/utcook-1.1.0.tgz
+    - https://stetina.github.io/chart/utcook-1.1.0%20.tgz
     version: 1.1.0
-generated: 2021-04-23T15:14:23.14166733+08:00
+generated: 2021-04-23T15:59:24.852974994+08:00
